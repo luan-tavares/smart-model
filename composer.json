@@ -1,0 +1,23 @@
+{
+    "name": "luan-tavares/smart-model",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "type": "library",
+    "version": "v0.0.1",
+    "description": "Models, ORM e Active Records em MySQL (por enquanto rs) de forma rápida e fácil.",
+    "authors": [
+        {
+            "name": "Luan Tavares Lourenço",
+            "email": "luan.tavares.lourenco@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Luan\\SmartModel\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    }
+}
